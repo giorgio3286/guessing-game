@@ -1,6 +1,6 @@
 create_readme_file:
 	touch README.md
-	echo "#The guessing game"> README.md
+	echo "# The guessing game"> README.md
 	echo "" >> README.md
 	echo "The make command was run on:" >>README.md
 	date '+%A %W %Y %X' >> README.md
